@@ -17,7 +17,7 @@ def plot_validation_history(his, fig_path):
 
     
 ########### print download progress ############
-def print_download_progress(count, block_size, total_size):
+def _print_download_progress(count, block_size, total_size):
     """
     Function used for printing the download progress.
     Used as a call-back function in maybe_download_and_extract().
